@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding-top: 0;
+}
+
+#mobileG, #mobileWel {
+    text-align: center;
+}
+
+#logo {
+    background-color: black;
+    color: white;
+    height: 35px;
+    padding-top: 5px;
+}
+
+span {
+    color: gold;
+    padding-left: 5px;
+}
+
+#desctopNav {
+    display: none;
+}
+
+#icon {
+    width: 25px;
+    position: absolute;
+    left: 94%;
+    background-color: gold;
+}
+
+#close {
+    width: 20px;
+    position: absolute;
+    left: 94%;
+    background-color: gold;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+li:hover {
+    color: black;
+    background-color: gold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#mobileNav {
+    background-color: black;
+    margin-top: 0;
+}
+
+/*Background image for mobile design*/
+#bgImg {
+    background-image: url("mobileBg.jpg");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pageGrid {
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#sub {
+    margin-top: 15px;
+}
+
+#pic {
+    width: 350px;
+}
+
+#pic1 {
+    width: 350px;
+    height: 300px;
+}
+
+/*Transform image size on hover*/
+#pic:hover, #pic1:hover {
+    transform: scale(1.1);
+}
+
+#thisSoc {
+    padding-top: 20px;
+}
+
+#socials {
+    text-align: center;
+}
+
+#socialLogo {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    text-align: center;
+    margin-top: -30px;
+    color: white;
+    font-size: 20px;
+}
+
+#footer {
+    bottom:0;
+    background-color: black;
+    color: gold;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+/*About me*/
+#abt {
+    padding-left: 5px;
+}
+
+#me {
+    width: 300px;
+    height: 300px;
+}
+
+/*Contact*/
+#contactForm {
+    width: 300px;
+    margin: auto;
+    padding-bottom: 225px;
+    padding-top: 30px;
+}
+
+td {
+    padding-top: 10px;
+}
+
+/*Blog*/
+marquee {
+    color: red;
+}
+
+#blogpost {
+    padding-bottom: 360px;
+    width: 400px;
+    margin: auto;
+}
+
+#dont {
+    width: 100px;
+    height: 200px;
+    margin-left: 140px;
+}
+
+@media screen and (min-width: 880px) {
+
+    #pageGrid {
+        display: grid;
+        width: 600px;
+        grid-template-columns: auto auto;
+    }
+
+    #pic {
+        width: 250px;
+    }
+
+    #pic1 {
+        width: 250px;
+        height: 170px;
+    }
+
+    #sub {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #desctopNav {
+        display: list-item;
+        background-color: gold;
+        padding-left: 550px;
+    }
+
+    #cli {
+        color: black;
+        padding: 0 20px 3px 20px;
+
+    }
+
+    #cli:hover {
+        background-color: black;
+        color: white;
+    }
+
+    #mobileNav {
+        display: none;
+    }
+
+    #close, #icon {
+        display: none;
+    }
+
+    #bgImg {
+        background-image: url("IMG1013.jpg");
+        height: 450px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #not:hover {
+        background-color: white;
+    }
+}
